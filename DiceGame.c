@@ -4,6 +4,11 @@
 
 int main(){
   int i, random, total = 0;
+  char name[30];
+
+  printf("What is your name? \n>");
+  scanf("%s", name);
+  printf("Hello, %s!\n", name);
 
   srand(time(NULL));
 
